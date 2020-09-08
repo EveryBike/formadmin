@@ -6,7 +6,7 @@
   color: $white;
   height: 50px;
   position: fixed;
-  text-shadow: $black 0 1px 0;
+  text-shadow: none;
   top: 0;
   white-space: nowrap;
   width: 100%;
@@ -16,6 +16,9 @@
     font-weight: bold;
     margin: 0 20px 0 0;
     padding: 0 30px;
+    a {
+      text-decoration: none;
+    }
   }
 
   #site_title_image {
